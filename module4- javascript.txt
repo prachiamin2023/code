@@ -1,0 +1,37 @@
+=============================
+MODULE: 4 (JavaScript Basic & DOM)
+
+1) What is JavaScript?
+-> 
+
+2) What is the use of isNaN function? 
+-> The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not. It returns true if the value is a NaN else returns false. It is different from the Number. isNaN() Method
+isNaN( value )
+
+3) What is negative Infinity? 
+-> The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation.JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+
+4) Which company developed JavaScript? 
+-> JavaScript was created at Netscape Communications by Brendan Eich in 1995. Netscape and Eich designed JavaScript as a scripting language for use with the company's flagship web browser, Netscape Navigator.
+
+5) What are undeclared and undefined variables?
+-> An undefined variable is one that has been declared but does not have a value. An undeclared variable is one that does not exist in the programmer at all.
+
+6) Write the code for adding new elements dynamically? 
+-> document.createElement("<tagName>");  
+  Where <tagName> can be any HTML 
+  tagName like div, ul, button, etc.
+  newDiv element has been created
+  For Eg: let newDiv = document.createElement("div");
+
+7) What is the difference between ViewState and SessionState?
+-> ViewState and SessionState are used for client-side state management and server-side state management respectively. The basic difference between these two is that the ViewState is to manage state at the client’s end, making state management easy for end-user while SessionState manages state at the server’s end, making it easy to manage content from this end too.
+
+8) What is === operator?
+-> The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+9) How can the style/class of an element be changed? 
+-> The class name is used as a selector in HTML which helps to give some value to the element attributes. The document.getElementById() method is used to return the element in the document with the “id” attribute and the “className” attribute can be used to change/append the class of the element.
+syntax:
+document.getElementById('myElement').className = "myclass";
+
